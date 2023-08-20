@@ -1,0 +1,158 @@
+body{
+    background-image: url(young-adults-enjoying-food_23-2149304415.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    height: 100vh;
+    width:100vw;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 15px solid darkolivegreen;
+    border-right: transparent;
+    padding-left: 5px;
+    color: burlywood;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 50px 80px;
+}
+nav ul li a{
+    color: white;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bolder;
+    border: black bold 5px;
+    font-size: larger;
+}
+
+nav ul li a:hover{
+    color: #fd4766; 
+}
+nav ul li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: #fd4766;
+    transition: 3s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 5cm;
+    text-transform: uppercase;
+    font-size: 100px;
+
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: lightslategray;
+    
+    
+}
+h2{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 500px;
+    background: #fd4766;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    border: 2px solid #fd4766;
+    display: inline-flex;
+}
+h2:hover{
+    background: transparent;
+    color: #fd4766;
+
+
+}
+
+.header{
+  text-align: center;
+  color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-radius: 500px;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    outline: lightslategray 1px solid;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 300px;
+  }
+footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: wheat;
+  }
+  h4{
+    font-size: 20px;
+    color: azure;
+  }
